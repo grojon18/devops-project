@@ -28,8 +28,8 @@ public class AccountController {
         return "ping";
     }
 
-    @RequestMapping(path = "/accounts/{ssn}")
-    public List<Account> getAccounts(@PathVariable("ssn") String ssn) {
-        return accountRepository.findByPersonalNumber(ssn);
+    @RequestMapping(path = "/accounts/{pn}")
+    public List<Account> getAccounts(@PathVariable("pn") String pn) {
+        return accountRepository.findByPersonalNumber(pn);
     }
 }

@@ -11,7 +11,7 @@
 	<groupId>no.kristiania.pg3301</groupId>
 	<artifactId>devops</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>devops-project</name>
+	<name>devops</name>
 	<description>Project for Devops</description>
 
 	<properties>
