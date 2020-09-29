@@ -1,4 +1,7 @@
 language: java
+before_install:
+  - chmod +x mvnw
+  - chmod +x build_and_push_docker.sh
 services:
 - docker
 script:
